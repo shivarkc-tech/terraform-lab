@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Name prefix for all resources"
   type        = string
-  default     = "tf-lab"
+  default     = "terraform-lab"
 }
 
 variable "vpc_cidr" {
@@ -37,5 +37,5 @@ variable "availability_zone" {
 variable "s3_bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
-  default     = "tf-lab-bucket-08062026"
+  default     = "terraform-lab-bucket-08062026"
 }
